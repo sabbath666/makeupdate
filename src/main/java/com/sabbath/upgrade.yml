@@ -1,0 +1,6 @@
+upgrade:
+   version: 1488
+   target:
+     e450on:  invest98
+     indbron: invest98
+     zeqon:  invest98

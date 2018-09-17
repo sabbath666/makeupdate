@@ -1,0 +1,7 @@
+# UPGRADE 1488 SHARE
+## DATE : 17.09.2018 10:57:224
+################ TARGET SYSTEMS ################
+#ADDRESS $LIST_DBNAME e450on  invest98
+#ADDRESS $LIST_DBNAME indbron  invest98
+#ADDRESS $LIST_DBNAME zeqon  invest98
+#################### FILES #####################
