@@ -16,6 +16,6 @@ upgradeScript <<"################ TARGET SYSTEMS ################\n"
 config.upgrade.target.each{
     upgradeScript<<"#ADDRESS \$LIST_DBNAME ${it.key}  ${it.value}\n"
 }
-upgradeScript <<"#################### FILES #####################\n"
+upgradeScript <<"####### ############# FILES #####################\n"
 
 """git diff --name-only  \$GIT_PREVIOUS_COMMIT \$GIT_COMMIT > c:/test/test.txt""".execute()
